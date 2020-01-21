@@ -11,7 +11,7 @@
 
     <div class="example">
       <h3>Typeable datepicker</h3>
-      <datepicker placeholder="Type or select date" :typeable="true" :tab-index="tabIndex" />
+      <datepicker placeholder="Type or select date" :typeable="true" :input-tab-index="inputTabIndex" />
       <code>
           &lt;datepicker placeholder="Type or select date" :typeable="true"&gt;&lt;/datepicker&gt;
       </code>
@@ -288,7 +288,7 @@ export default {
       vModelExample: null,
       languages: lang,
       language: 'en',
-      tabIndex: 1
+      inputTabIndex: 1
     }
   },
   computed: {

@@ -22,7 +22,7 @@
       :required="required"
       :bootstrapStyling="bootstrapStyling"
       :use-utc="useUtc"
-      :tab-index="tabIndex"
+      :inputTabIndex="inputTabIndex"
       @showCalendar="showCalendar"
       @closeCalendar="close"
       @typedDate="setTypedDate"
@@ -147,7 +147,7 @@ export default {
     required: Boolean,
     typeable: Boolean,
     useUtc: Boolean,
-    tabIndex: [String, Number],
+    inputTabIndex: [String, Number],
     minimumView: {
       type: String,
       default: 'day'
